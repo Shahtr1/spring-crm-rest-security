@@ -62,6 +62,13 @@
 		    <artifactId>spring-security-config</artifactId>
 		    <version>${springsecurity.version}</version>
 		</dependency>	
+		
+		<!-- JSON webtoken support -->
+		<dependency>
+		    <groupId>io.jsonwebtoken</groupId>
+		    <artifactId>jjwt</artifactId>
+		    <version>0.9.1</version>
+		</dependency>
 
 		<!-- Hibernate -->
 		<dependency>
